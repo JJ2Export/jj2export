@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ2 Representação Comercial Internacional | Connecting Brazilian Food Excellence to the Global Market</title>
+    <meta name="description" content="JJ2 Internacional - Representação comercial B2B de alimentos brasileiros de exportação nas rodadas de negócios APEX para Europa, Ásia, Américas e Oriente Médio.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Utility / Control Bar -->
+    <header class="top-bar no-print">
+        <div class="container top-bar-content">
+            <div class="b2b-status">
+                <span class="status-indicator"><i class="fa-solid fa-circle-dot"></i></span>
+                <span data-i18n="status_text">Atendimento B2B Multilíngue Ativo | São Paulo - Brasil (UTC-3)</span>
+            </div>
+            
+            <div class="top-controls">
+                <div class="view-switch">
+                    <button id="toggleA4Mode" class="btn-tool" title="Alternar Visualização A4 / Web">
+                        <i class="fa-solid fa-file-pdf"></i> <span data-i18n="mode_a4">Modo Folheto A4</span>
+                    </button>
+                    <button onclick="window.print()" class="btn-tool btn-gold-outline" title="Imprimir ou Salvar em PDF">
+                        <i class="fa-solid fa-print"></i> <span data-i18n="print_pdf">Exportar PDF</span>
+                    </button>
+                </div>
+                
+                <div class="lang-selector">
+                    <button class="lang-btn active" onclick="location.href='index_pt.html'">🇧🇷 PT</button>
+                    <button class="lang-btn" onclick="location.href='index_en.html'">🇺🇸 EN</button>
+                    <button class="lang-btn" onclick="location.href='index_es.html'">🇪🇸 ES</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container / A4 Page Wrapper -->
+    <div id="pageWrapper" class="page-wrapper">
+        
+        <!-- Header Branding & Slogan -->
+        <header class="main-header">
+            <div class="header-overlay"></div>
+            <div class="container header-content">
+                <div class="brand-block">
+                    <div class="logo-shield">
+                        <div class="shield-inner">
+                            <span class="shield-text">JJ2</span>
+                        </div>
+                    </div>
+                    <div class="brand-text">
+                        <h1 class="company-name">JJ2 REPRESENTAÇÃO COMERCIAL INTERNACIONAL</h1>
+                        <a href="https://jj2-site.vercel.app/" target="_blank" class="company-website-pill">
+                            <i class="fa-solid fa-globe"></i> https://jj2-site.vercel.app/
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="slogan-badge">
+                    <span class="slogan-quote">“</span>
+                    <h2 class="slogan-text" data-i18n="slogan">Connecting Brazilian Food Excellence to the Global Market</h2>
+                    <span class="slogan-quote">”</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Section: APEX Business Matchmaking & Global Presence -->
+        <section class="apex-section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <span class="badge-gold" data-i18n="apex_badge"><i class="fa-solid fa-globe"></i> Presença Internacional em Rodadas de Negócios APEX</span>
+                    <h2 class="section-title" data-i18n="apex_title">Ponte Estratégica entre Indústrias Brasileiras e Compradores Globais</h2>
+                    <p class="section-subtitle" data-i18n="apex_subtitle">Atuamos ativamente nas rodadas de negócios internacionais promovidas pela APEX-Brasil, conectando supermercadistas, distribuidores e importadores às maiores excelências do setor alimentício do Brasil.</p>
+                </div>
+
+                <!-- Global Markets Grid -->
+                <div class="markets-grid">
+                    <div class="market-card">
+                        <div class="market-icon"><i class="fa-solid fa-earth-europe"></i></div>
+                        <h3 class="market-name" data-i18n="market_europe">Europa</h3>
+                        <p class="market-desc" data-i18n="market_europe_desc">União Europeia, Reino Unido & Suíça. Certificação de qualidade e rastreabilidade total.</p>
+                        <span class="market-tag">FOB / CIF EU Ports</span>
+                    </div>
+
+                    <div class="market-card">
+                        <div class="market-icon"><i class="fa-solid fa-earth-asia"></i></div>
+                        <h3 class="market-name" data-i18n="market_asia">Ásia</h3>
+                        <p class="market-desc" data-i18n="market_asia_desc">Japão, China, Singapura & Ásia Oriental. Adaptação de embalagens e conformidade regulatória.</p>
+                        <span class="market-tag">High Growth B2B</span>
+                    </div>
+
+                    <div class="market-card">
+                        <div class="market-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                        <h3 class="market-name" data-i18n="market_americas">Américas</h3>
+                        <p class="market-desc" data-i18n="market_americas_desc">EUA, Canadá, México e Mercosul. Registro FDA, rotulagem nutricional e logística integrada.</p>
+                        <span class="market-tag">FDA Registered</span>
+                    </div>
+
+                    <div class="market-card">
+                        <div class="market-icon"><i class="fa-solid fa-kaaba"></i></div>
+                        <h3 class="market-name" data-i18n="market_middle_east">Oriente Médio</h3>
+                        <p class="market-desc" data-i18n="market_middle_east_desc">Emirados Árabes Unidos, Arábia Saudita e Catar. Produtos com certificação Halal exigida.</p>
+                        <span class="market-tag">Halal Certified</span>
+                    </div>
+                </div>
+
+                <!-- Value Pillars -->
+                <div class="pillars-row">
+                    <div class="pillar">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span data-i18n="pillar_1">Padrões Internacionais (ISO, HACCP, Halal, Kosher, FDA)</span>
+                    </div>
+                    <div class="pillar">
+                        <i class="fa-solid fa-handshake-simple"></i>
+                        <span data-i18n="pillar_2">Negociação Direta com as Indústrias Fabricantes</span>
+                    </div>
+                    <div class="pillar">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <span data-i18n="pillar_3">Suporte Logístico & Operações de Comércio Exterior</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Showcase (Vitrine de Marcas) -->
+        <section class="brands-section">
+            <div class="container">
+                <div class="section-header-flex">
+                    <div>
+                        <span class="badge-green" data-i18n="brands_badge"><i class="fa-solid fa-store"></i> Portfólio Exclusivo de Indústrias</span>
+                        <h2 class="section-title text-navy" data-i18n="brands_title">Marcas de Excelência Representadas pela JJ2</h2>
+                    </div>
+                    <div class="brand-filters no-print">
+                        <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Todas</button>
+                        <button class="filter-btn" data-filter="coco" data-i18n="filter_coco">Coco</button>
+                        <button class="filter-btn" data-filter="doces" data-i18n="filter_doces">Chocolates</button>
+                        <button class="filter-btn" data-filter="laticinios" data-i18n="filter_laticinios">Laticínios</button>
+                        <button class="filter-btn" data-filter="snacks" data-i18n="filter_snacks">Amendoim</button>
+                        <button class="filter-btn" data-filter="superfoods" data-i18n="filter_superfoods">Palmito & Açaí</button>
+                    </div>
+                </div>
+
+                <!-- 5 Brand Showcase Cards -->
+                <div class="brands-grid">
+                    
+                    <!-- Card 1: Qualicoco (PT) -->
+                    <article class="brand-card" data-category="coco">
+                        <div class="card-media">
+                            <img id="qualicocoImg" src="assets/qualicoco_pt.png" alt="Qualicoco - Derivados de Coco" loading="lazy">
+                            <span class="card-category-badge">Derivados de Coco</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="brand-header">
+                                <h3 class="brand-title">Qualicoco</h3>
+                                <span class="brand-origin">Indústria Brasileira</span>
+                            </div>
+                            <p class="brand-tagline" data-i18n="qualicoco_desc">Linha completa e inovadora de derivados de coco para o varejo, food service e indústria global.</p>
+                            
+                            <ul class="product-highlights">
+                                <li><i class="fa-solid fa-check"></i> Óleo de Coco Extra Virgem e Refinado</li>
+                                <li><i class="fa-solid fa-check"></i> Leite de Coco Tradicional e Culinário</li>
+                                <li><i class="fa-solid fa-check"></i> Coco Ralado (Fino, Médio e Flocos)</li>
+                                <li><i class="fa-solid fa-check"></i> Água de Coco e Manteiga de Coco</li>
+                            </ul>
+
+                            <div class="certifications-pills">
+                                <span><i class="fa-solid fa-leaf"></i> 100% Vegetal</span>
+                                <span><i class="fa-solid fa-shield"></i> ISO 22000</span>
+                                <span><i class="fa-solid fa-award"></i> Halal Certified</span>
+                            </div>
+
+                            <div class="card-action">
+                                <button class="btn-card-action" onclick="openVisitingRoom('Qualicoco')">
+                                    <i class="fa-solid fa-download"></i> <span data-i18n="request_catalog">Catálogo & Preço FOB/CIF</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2: Waiss Chocolates -->
+                    <article class="brand-card" data-category="doces">
+                        <div class="card-media">
+                            <img src="assets/waiss.jpg" alt="Waiss Chocolates e Panettones" loading="lazy">
+                            <span class="card-category-badge">Chocolates & Festivos</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="brand-header">
+                                <h3 class="brand-title">Waiss Chocolates & Panettones</h3>
+                                <span class="brand-origin">Confeitaria Fina</span>
+                            </div>
+                            <p class="brand-tagline" data-i18n="waiss_desc">Chocolates finos gourmet e panettones artesanais desenvolvidos para paladares internacionais exigentes.</p>
+                            
+                            <ul class="product-highlights">
+                                <li><i class="fa-solid fa-check"></i> Chocolates Finos com Cacau Selecionado</li>
+                                <li><i class="fa-solid fa-check"></i> Trufas Recheadas & Bombons Gourmet</li>
+                                <li><i class="fa-solid fa-check"></i> Panettones Festivos Tradicionais e Recheados</li>
+                                <li><i class="fa-solid fa-check"></i> Linha Gift Boxes e Embalagens de Exportação</li>
+                            </ul>
+
+                            <div class="certifications-pills">
+                                <span><i class="fa-solid fa-gem"></i> Premium Quality</span>
+                                <span><i class="fa-solid fa-box"></i> Export Packaging</span>
+                                <span><i class="fa-solid fa-utensils"></i> Gourmet Grade</span>
+                            </div>
+
+                            <div class="card-action">
+                                <button class="btn-card-action" onclick="openVisitingRoom('Waiss Chocolates')">
+                                    <i class="fa-solid fa-download"></i> <span data-i18n="request_catalog">Catálogo & Preço FOB/CIF</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3: Queijos Crioulo -->
+                    <article class="brand-card" data-category="laticinios">
+                        <div class="card-media">
+                            <img src="assets/crioulo.jpg" alt="Queijos Crioulo" loading="lazy">
+                            <span class="card-category-badge">Laticínios Nobres</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="brand-header">
+                                <h3 class="brand-title">Queijos Crioulo</h3>
+                                <span class="brand-origin">Tradição Laticínia</span>
+                            </div>
+                            <p class="brand-tagline" data-i18n="crioulo_desc">Queijos selecionados com rigor artesanal e controle industrial de altíssimo padrão para exportação.</p>
+                            
+                            <ul class="product-highlights">
+                                <li><i class="fa-solid fa-check"></i> Queijo Prato, Gouda e Parmesão Maturado</li>
+                                <li><i class="fa-solid fa-check"></i> Provolone Defumado e Queijos Especiais</li>
+                                <li><i class="fa-solid fa-check"></i> Linha Fracionada & Food Service</li>
+                                <li><i class="fa-solid fa-check"></i> Embalagens a Vácuo de Longa Durabilidade</li>
+                            </ul>
+
+                            <div class="certifications-pills">
+                                <span><i class="fa-solid fa-snowflake"></i> Cadeia de Frio Apropriada</span>
+                                <span><i class="fa-solid fa-stamp"></i> SIF Exportação</span>
+                            </div>
+
+                            <div class="card-action">
+                                <button class="btn-card-action" onclick="openVisitingRoom('Queijos Crioulo')">
+                                    <i class="fa-solid fa-download"></i> <span data-i18n="request_catalog">Catálogo & Preço FOB/CIF</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Alteroza -->
+                    <article class="brand-card" data-category="superfoods">
+                        <div class="card-media">
+                            <img src="assets/alteroza.jpg" alt="Alteroza Palmitos e Açaí" loading="lazy">
+                            <span class="card-category-badge">Conservas & Superfoods</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="brand-header">
+                                <h3 class="brand-title">Alteroza Palmitos & Açaí</h3>
+                                <span class="brand-origin">Sustentabilidade Amazônica</span>
+                            </div>
+                            <p class="brand-tagline" data-i18n="alteroza_desc">Palmitos nobres em conserva de cultivo sustentável e polpa de açaí puro direto da Amazônia.</p>
+                            
+                            <ul class="product-highlights">
+                                <li><i class="fa-solid fa-check"></i> Palmitos em Conserva (Tolete, Rodela, Banda e Picado)</li>
+                                <li><i class="fa-solid fa-check"></i> Palmito Pupunha e Açaí Sustentáveis</li>
+                                <li><i class="fa-solid fa-check"></i> Polpa de Açaí Puro Congelado (Medium & Thick)</li>
+                                <li><i class="fa-solid fa-check"></i> Açaí Mix com Guaraná Próprio para Exportação</li>
+                            </ul>
+
+                            <div class="certifications-pills">
+                                <span><i class="fa-solid fa-tree"></i> Origem Sustentável</span>
+                                <span><i class="fa-solid fa-heart-pulse"></i> Superfood Super Antioxidante</span>
+                                <span><i class="fa-solid fa-certificate"></i> Ibama Certificado</span>
+                            </div>
+
+                            <div class="card-action">
+                                <button class="btn-card-action" onclick="openVisitingRoom('Alteroza Palmitos e Açaí')">
+                                    <i class="fa-solid fa-download"></i> <span data-i18n="request_catalog">Catálogo & Preço FOB/CIF</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5: Grãos União -->
+                    <article class="brand-card card-featured" data-category="snacks">
+                        <div class="card-media">
+                            <img src="assets/graos_uniao.jpg" alt="Grãos União - Amendoins e Snacks" loading="lazy">
+                            <span class="card-category-badge">Amendoim & Snacks</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="brand-header">
+                                <h3 class="brand-title">Grãos União</h3>
+                                <span class="brand-origin">Snacks & Nutrição</span>
+                            </div>
+                            <p class="brand-tagline" data-i18n="graos_desc">Especialistas em produtos à base de amendoim selecionado, pastas integrais e snacks crocantíssimos.</p>
+                            
+                            <ul class="product-highlights">
+                                <li><i class="fa-solid fa-check"></i> Pasta de Amendoim 100% Integral e Gourmet</li>
+                                <li><i class="fa-solid fa-check"></i> Amendoim Torrado, Salgado e Temperado</li>
+                                <li><i class="fa-solid fa-check"></i> Paçocas Tradicionais e Zero Açúcar</li>
+                                <li><i class="fa-solid fa-check"></i> Grãos In Natura para Indústrias de Transformação</li>
+                            </ul>
+
+                            <div class="certifications-pills">
+                                <span><i class="fa-solid fa-bolt"></i> High Protein</span>
+                                <span><i class="fa-solid fa-ban"></i> Gluten Free</span>
+                                <span><i class="fa-solid fa-seedling"></i> Non-GMO</span>
+                            </div>
+
+                            <div class="card-action">
+                                <button class="btn-card-action" onclick="openVisitingRoom('Grãos União')">
+                                    <i class="fa-solid fa-download"></i> <span data-i18n="request_catalog">Catálogo & Preço FOB/CIF</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action (CTA) -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-content">
+                        <span class="cta-badge" data-i18n="cta_badge"><i class="fa-solid fa-door-open"></i> Sala de Visitas Digital JJ2</span>
+                        <h2 class="cta-title" data-i18n="cta_title">Atendimento Direto a Compradores e Importadores Internacionais</h2>
+                        <p class="cta-desc" data-i18n="cta_desc">Acesse nossa Sala de Visitas Digital para solicitar cotações personalizadas com termos Incoterms (FOB/CIF), obter catálogos técnicos em PDF e agendar reuniões com nossos diretores.</p>
+                        
+                        <div class="cta-actions">
+                            <button class="btn-cta-primary" onclick="openVisitingRoom()">
+                                <i class="fa-solid fa-laptop-code"></i> <span data-i18n="btn_visiting_room">Entrar na Sala de Visitas Digital</span>
+                            </button>
+                            <button class="btn-cta-secondary" onclick="openWhatsapp()">
+                                <i class="fa-brands fa-whatsapp"></i> <span data-i18n="btn_whatsapp">Conversar com Diretores no WhatsApp</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col brand-info">
+                        <div class="footer-logo">
+                            <span class="footer-logo-badge">JJ2</span>
+                            <span class="footer-logo-title">JJ2 INTERNACIONAL</span>
+                        </div>
+                        <p class="footer-slogan">Connecting Brazilian Food Excellence to the Global Market</p>
+                    </div>
+
+                    <div class="footer-col contact-info">
+                        <h4 class="footer-heading" data-i18n="contact_heading">Contato B2B Internacional</h4>
+                        <ul class="contact-list">
+                            <li><i class="fa-solid fa-globe"></i> <a href="https://jj2-site.vercel.app/" target="_blank">jj2-site.vercel.app</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i> Curitiba / PR - Brasil</li>
+                            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@jj2internacional.com.br">contato@jj2internacional.com.br</a></li>
+                            <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/5541988407503" target="_blank">+55 (41) 98840-7503 (WhatsApp)</a></li>
+                            <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/5521992859799" target="_blank">+55 (21) 99285-9799 (WhatsApp)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col lang-info">
+                        <h4 class="footer-heading" data-i18n="multilingual_heading">Atendimento Multilíngue</h4>
+                        <p data-i18n="multilingual_desc">Nossa equipe comercial está totalmente preparada para negociações nos seguintes idiomas:</p>
+                        <div class="lang-pills">
+                            <span class="pill-lang">🇧🇷 Português</span>
+                            <span class="pill-lang">🇬🇧 English</span>
+                            <span class="pill-lang">🇪🇸 Español</span>
+                        </div>
+                        <div class="apex-partner-tag">
+                            <i class="fa-solid fa-handshake"></i> Parceria e Presença ativa em Ações APEX-Brasil
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2026 JJ2 Representação Comercial Internacional. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="visitingRoomModal" class="modal-backdrop">
+        <div class="modal-card">
+            <button class="modal-close" onclick="closeVisitingRoom()">&times;</button>
+            
+            <div class="modal-header">
+                <div class="modal-icon"><i class="fa-solid fa-building-user"></i></div>
+                <div>
+                    <h3 class="modal-title" data-i18n="modal_title">Sala de Visitas Digital - JJ2 Internacional</h3>
+                    <p class="modal-subtitle" data-i18n="modal_subtitle">Solicitação de Tabelas de Preços FOB/CIF e Catálogos Técnicos</p>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-tabs">
+                    <button class="tab-btn active" onclick="switchModalTab('quote')" data-i18n="tab_quote">Solicitar Tabela / Cotação</button>
+                    <button class="tab-btn" onclick="switchModalTab('catalogs')" data-i18n="tab_catalogs">Baixar Catálogos</button>
+                </div>
+
+                <div id="tabQuote" class="tab-content active">
+                    <form id="b2bQuoteForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="companyName" data-i18n="lbl_company">Empresa / Importadora *</label>
+                                <input type="text" id="companyName" required placeholder="Ex: Global Food Distributors Inc.">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactName" data-i18n="lbl_name">Nome do Comprador *</label>
+                                <input type="text" id="contactName" required placeholder="Seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail" data-i18n="lbl_email">E-mail Corporativo *</label>
+                                <input type="email" id="contactEmail" required placeholder="compras@suaempresa.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="targetCountry" data-i18n="lbl_country">País de Destino / Porto *</label>
+                                <input type="text" id="targetCountry" required placeholder="Ex: Hamburgo (Alemanha) / Miami (EUA)">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label data-i18n="lbl_brands">Marcas de Interesse *</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="brand_interest" value="Qualicoco"> Qualicoco (Coco)</label>
+                                <label><input type="checkbox" name="brand_interest" value="Waiss"> Waiss (Chocolates)</label>
+                                <label><input type="checkbox" name="brand_interest" value="Crioulo"> Queijos Crioulo</label>
+                                <label><input type="checkbox" name="brand_interest" value="GraosUniao"> Grãos União (Amendoim)</label>
+                                <label><input type="checkbox" name="brand_interest" value="Alteroza"> Alteroza (Palmito & Açaí)</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="incoterm" data-i18n="lbl_incoterm">Modalidade Incoterm de Preferência</label>
+                            <select id="incoterm">
+                                <option value="FOB">FOB (Free On Board - Porto de Santos/Brasil)</option>
+                                <option value="CIF">CIF (Cost, Insurance & Freight - Porto de Destino)</option>
+                                <option value="EXW">EXW (Ex Works - Fábrica)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="fa-solid fa-paper-plane"></i> <span data-i18n="btn_send">Enviar solicitação à equipe da JJ2</span>
+                        </button>
+                    </form>
+                </div>
+
+                <div id="tabCatalogs" class="tab-content">
+                    <p class="tab-intro" data-i18n="catalogs_intro">Clique abaixo para baixar os catálogos completos com especificações técnicas:</p>
+                    <div class="catalogs-list">
+                        <div class="catalog-item">
+                            <div class="catalog-info">
+                                <i class="fa-solid fa-file-pdf catalog-icon"></i>
+                                <div>
+                                    <strong>Catálogo Geral JJ2 Export 2026</strong>
+                                    <small>Completo com as 5 indústrias (PDF - 4.2 MB)</small>
+                                </div>
+                            </div>
+                            <button class="btn-download" onclick="downloadFile('Catálogo_Geral_JJ2_2026_PT.pdf')"><i class="fa-solid fa-download"></i> Download</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check"></i> <span id="toastMsg">Mensagem enviada com sucesso!</span>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => setLanguage('pt'));
+    </script>
+</body>
+</html>
