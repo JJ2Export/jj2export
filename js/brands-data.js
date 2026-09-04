@@ -75,7 +75,7 @@ const BRANDS = [
     id: 'alteroza',
     logo: null,
     image: 'assets/images/alteroza/cover.jpg',
-    catalog: 'assets/catalogs/alteroza.pdf',
+    catalog: 'assets/catalogs/alteroza-compactado.pdf',
     certifications: ['Halal', 'Kosher', 'Eco-Farm'],
     name: { en: 'Alteroza Palmitos & Açaí', pt: 'Alteroza Palmitos & Açaí', es: 'Alteroza Palmitos & Açaí' },
     tagline: {
