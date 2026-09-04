@@ -3,7 +3,7 @@ const BRANDS = [
     id: 'graos-uniao',
     logo: 'assets/logos/graos-uniao-logo.png',
     image: 'assets/images/graos-uniao/cover.jpg',
-    catalog: 'assets/catalogs/graos-uniao.pdf',
+    catalog: 'assets/catalogs/graos-uniao-compactado.pdf',
     certifications: ['MAPA', 'Optical Sort'],
     name: { en: 'Grãos União', pt: 'Grãos União', es: 'Grãos União' },
     tagline: {
