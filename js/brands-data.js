@@ -1,7 +1,7 @@
 const BRANDS = [
   {
     id: 'graos-uniao',
-    logo: 'assets/logos/graos-uniao-logo.png',
+    logo: 'assets/logos/graos-uniao-logo.jpg',
     image: 'assets/images/graos-uniao/cover.jpg',
     catalog: 'assets/catalogs/graos-uniao-compactado.pdf',
     certifications: ['MAPA', 'Optical Sort'],
