@@ -21,7 +21,7 @@ const BRANDS = [
     id: 'waiss',
     logo: null,
     image: 'assets/images/waiss/cover.jpg',
-    catalog: 'assets/catalogs/waiss.pdf',
+    catalog: 'assets/catalogs/WAISS.pdf',
     certifications: ['HACCP', 'Gift Pack'],
     name: { en: 'Waiss Chocolates & Panettones', pt: 'Waiss Chocolates & Panettones', es: 'Waiss Chocolates & Panettones' },
     tagline: {
