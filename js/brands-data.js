@@ -19,7 +19,7 @@ const BRANDS = [
   },
   {
     id: 'waiss',
-    logo: null,
+    logo: 'assets/logos/waiss.jpg',
     image: 'assets/images/waiss/cover.jpg',
     catalog: 'assets/catalogs/WAISS.pdf',
     certifications: ['HACCP', 'Gift Pack'],
