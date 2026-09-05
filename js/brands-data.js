@@ -37,7 +37,7 @@ const BRANDS = [
   },
   {
     id: 'qualicoco',
-    logo: null,
+    logo: 'assets/logos/qualicoco.jpg',
     image: 'assets/images/qualicoco/cover.jpg',
     catalog: 'assets/catalogs/qualicoco.pdf',
     certifications: ['HACCP', 'ISO', 'Vegan'],
@@ -55,7 +55,7 @@ const BRANDS = [
   },
   {
     id: 'crioulo',
-    logo: null,
+    logo: 'assets/logos/crioulo.jpg',
     image: 'assets/images/crioulo/cover.jpg',
     catalog: 'assets/catalogs/crioulo.pdf',
     certifications: ['SIF Export', 'Reefer'],
@@ -73,7 +73,7 @@ const BRANDS = [
   },
   {
     id: 'alteroza',
-    logo: null,
+    logo: 'assets/logos/alteroza.jpg',
     image: 'assets/images/alteroza/cover.jpg',
     catalog: 'assets/catalogs/alteroza-compactado.pdf',
     certifications: ['Halal', 'Kosher', 'Eco-Farm'],
