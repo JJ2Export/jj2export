@@ -1,0 +1,14 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment and Temporary Files
+.env
+.env.local
+*.log
+
+# Antigravity Scratch Files
+.system_generated/
+scratch/
