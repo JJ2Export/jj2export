@@ -1,4 +1,4 @@
-﻿const BRANDS = [
+const BRANDS = [
   {
     id: 'graos-uniao',
     logo: 'assets/logos/graos-uniao-logo.jpg',
@@ -123,6 +123,42 @@
       en: ['Strawberry Pepper Jam 390g', 'Zero Sugar Mixed Berries Jam', 'Pineapple Chutney', 'Tomato Basil Chutney'],
       pt: ['Geleia Morango c/ Pimenta 390g', 'Geleia Frutas Vermelhas Zero Açúcar', 'Chutney de Abacaxi', 'Chutney Tomate c/ Manjericão'],
       es: ['Mermelada Fresa c/ Pimienta 390g', 'Mermelada Frutos Rojos Cero Azúcar', 'Chutney de Piña', 'Chutney Tomate c/ Albahaca']
+    }
+  },
+  {
+    id: 'rico-paladar',
+    logo: 'assets/logos/rico-paladar.jpg',
+    image: 'assets/images/rico-paladar/cover.jpg',
+    catalog: 'assets/catalogs/rico-paladar.pdf',
+    certifications: ['Frozen', 'Food Service', 'Curitiba-PR'],
+    name: { en: 'Rico Paladar', pt: 'Rico Paladar', es: 'Rico Paladar' },
+    tagline: {
+      en: 'Brazilian frozen foods: traditional, gourmet and filled cheese breads (pão de queijo).',
+      pt: 'Congelados brasileiros: pães de queijo tradicionais, gourmet e recheados.',
+      es: 'Congelados brasileños: panes de queso tradicionales, gourmet y rellenos.'
+    },
+    products: {
+      en: ['Traditional, Gourmet & Premium Cheese Bread', 'Filled Cheese Bread (Sweet & Savory)', 'Chipa & Herb Chipa', 'Provolone Cheese Sticks'],
+      pt: ['Pão de Queijo Tradicional, Gourmet e Premium', 'Pão de Queijo Recheado (Doce e Salgado)', 'Chipa e Chipa com Ervas Finas', 'Palitos de Queijo com Provolone'],
+      es: ['Pan de Queso Tradicional, Gourmet y Premium', 'Pan de Queso Relleno (Dulce y Salado)', 'Chipa y Chipa con Finas Hierbas', 'Palitos de Queso con Provolone']
+    }
+  },
+  {
+    id: 'cacau-foods',
+    logo: 'assets/logos/cacau-foods.jpg',
+    image: 'assets/images/cacau-foods/cover.jpg',
+    catalog: 'assets/catalogs/cacau-foods.pdf',
+    certifications: ['Since 2008', 'Bulk Supply', 'Marília-SP'],
+    name: { en: 'Cacau Foods', pt: 'Cacau Foods', es: 'Cacau Foods' },
+    tagline: {
+      en: 'Ingredients for confectionery and baking, for retail and industrial use.',
+      pt: 'Ingredientes para confeitaria e panificação, para o varejo e a indústria.',
+      es: 'Ingredientes para confitería y panificación, para el comercio minorista y la industria.'
+    },
+    products: {
+      en: ['Sprinkles & Confetti', 'Crunchy Cereals', 'Chocolate & Cocoa Powder', 'Toppings, Colorants & Decorations'],
+      pt: ['Granulados e Confeitos', 'Cereais Crocantes', 'Chocolate e Cacau em Pó', 'Coberturas, Corantes e Decoração'],
+      es: ['Granillos y Confites', 'Cereales Crujientes', 'Chocolate y Cacao en Polvo', 'Coberturas, Colorantes y Decoración']
     }
   }
 ];
